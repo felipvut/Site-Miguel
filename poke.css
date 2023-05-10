@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cfcfcf;
+}
+.nav-bar{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: #cfcfcf;
+}
+h1{
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+input{
+    padding-left: 14px;
+    width: 95%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f9f9f9;
+    outline: 0;
+    font-size: 20;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.pokemons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pokemons .pokemon {
+    display: flex;
+    width: 225px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.pokemons .pokemon__name {
+    font-size: 18px;
+    text-transform: capitalize;
+    height: 30px;
+    display: block;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.pokemons .pokemon__tipos {
+    list-style: none;
+    display: inline;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+}
+.pokemons .pokemon__tipos li {
+    background-color: #d3d3d3;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 4px;
+}
+.pokemons .pokemon__img {
+    justify-items: center;
+    width: 8px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: block;
+}
